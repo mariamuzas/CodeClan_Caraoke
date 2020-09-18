@@ -7,4 +7,7 @@ class Room:
     def check_playlist(self):
         return len(self.playlist)
 
-    # def add_new_song_list(self, song):
+    def add_new_song_list(self, song):
+        self.playlist.append(song)
+
+

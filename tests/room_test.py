@@ -19,9 +19,9 @@ class TestRoom(unittest.TestCase):
     def test_room_playlist(self):
         self.assertEqual(3, self.room.check_playlist())
 
+    def test_add_new_song(self):
+        self.song_4 = Song("My Shot", "Lil-Manuel Miranda")
+        self.room.add_new_song_list(self.song_4)
+        self.assertEqual(4, self.room.check_playlist())
 
-    # def test_room_playlist(self):
-    #     self.assertEqual(3, self.room.song_list)
-    # def test_add_new_song(self):
-    #     self.song_4 = 
     
