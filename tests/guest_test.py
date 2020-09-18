@@ -6,3 +6,4 @@ from classes.song import Song
 
 class TestGuest(unittest.TestCase):
     pass
+        

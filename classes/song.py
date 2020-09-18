@@ -1,5 +1,4 @@
 class Song:
-    def __init__(self, title, song):
+    def __init__(self, title, artist):
         self.title = title
-        self.song = song 
-        
+        self.artist = artist
