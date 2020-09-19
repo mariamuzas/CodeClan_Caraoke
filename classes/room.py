@@ -15,4 +15,7 @@ class Room:
     
     def check_guest_list(self):
         return len(self.guest_list)
+    
+    def check_out(self, customer):
+        self.guest_list.remove(customer)
 
