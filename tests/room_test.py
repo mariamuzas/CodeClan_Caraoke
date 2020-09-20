@@ -50,5 +50,8 @@ class TestRoom(unittest.TestCase):
         self.room.paid_by_guest(self.room.entry_fee)
         self.assertEqual(60, self.room.till)
 
+    # def test_pick_favorite_song(self):
+    #     self.assertEqual("Whoo!", self.guest_favorite_song_in_playlist)
+
 
     
